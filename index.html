@@ -1,11 +1,146 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            My Site!
-        </title>
-    </head>
-    <body>
-        <h1>This is my Github Pages website!</h1>
-    </body>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente aberta</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/botao.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="javascript/codigo.js"></script>
+  
+</head>
+<body>
+  
+    <!--Barra de navegação-->
+    <div class="container">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <img src="Imagens/TH logo(mini).png" alt="" class="bi me-2" width="40" height="32" role="img">
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+          <li><a href="sobre.html" class="nav-link px-2 link-dark">Sobre</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <a href="iniciar.html"><button type="button" class="btn btn-outline me-2" id="btn1">Iniciar sessão</button></a>
+          <a href="http://www.uor.ed.ao/" target="blank"><button type="button" class="btn btn-primary" style="background-color: #fd7e14; border: 1px solid #fd7e14;">Inscrever-se</button></a>
+        </div>
+      </header>
+    </div>
+
+    <!--Slide de imagens-->
+    
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagens/Essential-Books.jpg" width="100%" height="520px" aria-hidden="true" alt="" preserveAspectRatio="xMidYMid slice">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Faça já o seu cadastro.</h1>
+            <p>Tenha acesso a plataforma de ensino online da universidade Óscar Ribas.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color: #fd7e14; border: 1px solid #fd7e14;" href="#">Inscreva-se</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagens/Essential-Books.jpg" width="100%" height="520px" aria-hidden="true" alt="" preserveAspectRatio="xMidYMid slice">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Crie a sua propria lista.</h1>
+            <p>Temos videos aulas, podcasts e pdfs para auxiliar as videos aulas e colocar tudo isso na sua lista.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color: #fd7e14; border: 1px solid #fd7e14;" href="iniciar.html">Criar a minha lista</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagens/Essential-Books.jpg" width="100%" height="520px" aria-hidden="true" alt="" preserveAspectRatio="xMidYMid slice">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Universidade Óscar Ribas.</h1>
+            <p>Para saber mais sobre nós clique no botão abaixo ou no sobre.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color: #fd7e14; border: 1px solid #fd7e14;" href="#">Sobre nós</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--Conteúdo-->
+  <div class="b-example-divider"></div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="Imagens/Essential-Books.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Mesmo sem estar na sala de aulas tu podes estar presente</h1>
+        <p class="lead">Com a criação deste site os estudantes não perderão conteúdos por sua ausência prensencial nas aulas, pois, terão o site para cobrir este problema na qual poderão tirar melhor proveito do nosso ensino. Devido a pandemia decidimos adaptar o nosso ensino para que não fiquemos parados.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 mb-3">A chave para auxiliar o seu conhecimento</h1>
+        <p class="col-lg-10 fs-4">Para tirar proveito da ferramenta e garantir maior segurança aos nossos usuários, cada estudante deve estar inscrito a universidade para poder ter acesso ao conteúdo ou efectuar o login.</p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">E-mail</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+            <label for="floatingPassword">Palavra-passe</label>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Lembrar de mim
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit" style="background-color: #fd7e14; border: 1px solid #fd7e14;">Iniciar sessão</button>
+          <hr class="my-4">
+          <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <!--Informações extras-->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020–2021 your code, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+</body>
 </html>
