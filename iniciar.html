@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sessão - Mente Aberta</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="estilo/estilo.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="javascript/codigo.js"></script>
+    <style>
+
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      #btn2
+      {
+        border: 1px solid #fd7e14;
+        color: #fd7e14;
+      }
+      #btn2:hover
+      {
+        border: 1px solid #fd7e14;
+        color: #fff;
+        background-color: #fd7e14;
+      }
+    </style>
+</head>
+<body class="text-center">
+    <!--Barra de navegação-->
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img src="Imagens/TH logo(mini).png" alt="" class="bi me-2" width="40" height="32" role="img">
+          </a>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 link-dark">Home</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Sobre</a></li>
+          </ul>
+        </header>
+      </div>
+
+    <main class="form-signin">
+        <form>
+          <h1 class="h3 mb-3 fw-normal" style="margin-top: 20pt;">Iniciar-sessão</h1>
+      
+          <div class="form-floating" style="width: 300pt; margin-left: 475px;">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating" style="width: 300pt; margin-left: 475px;">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Senha</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Lembrar de mim
+            </label>
+          </div>
+          <button class=" btn btn-lg btn-primary" type="submit" style="width: 300pt; background-color: #fd7e14; border: 1px solid #fd7e14; margin-bottom: 10px;">Iniciar sessão</button> <br>
+          <button class=" btn btn-lg btn-outline" id="btn2" type="submit" style="width: 300pt;">Inscrever-se</button>
+          <p class="mt-5 mb-3 text-muted">&copy; 2020–2021</p>
+        </form>
+      </main>
+      
+</body>
+</html>
